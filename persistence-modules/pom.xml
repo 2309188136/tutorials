@@ -10,7 +10,8 @@
         <groupId>com.baeldung</groupId>
         <artifactId>parent-modules</artifactId>
         <version>1.0.0-SNAPSHOT</version>
-        <relativePath>..</relativePath>
+        <!-- <relativePath>..</relativePath>  -->
+<!--        <relativePath>../pom.xml</relativePath>-->
     </parent>
 
     <modules>
@@ -59,7 +60,7 @@
         <module>spring-jpa</module>
         <module>spring-persistence-simple</module>
         <module>jpa-hibernate-cascade-type</module>
-	<module>r2dbc</module>
+		<module>r2dbc</module>
         <module>spring-boot-jdbi</module>
     </modules>
 </project>
