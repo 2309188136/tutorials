@@ -40,6 +40,7 @@
         <module>java-jdbi</module>
         <module>java-jpa</module> <!-- long running -->
         <module>java-jpa-2</module> <!-- long running -->
+        <module>java-jpa-3</module>
         <module>java-mongodb</module> <!-- long running -->
         <module>jnosql</module> <!-- long running -->
         <module>jooq</module>
@@ -88,6 +89,7 @@
         <module>spring-jpa</module>
         <module>spring-jpa-2</module>
         <module>spring-jdbc</module>
+        <module>spring-jooq</module>
         <!-- <module>spring-mybatis</module> --> <!-- needs fixing in BAEL-9021 -->
         <module>spring-persistence-simple</module>
     </modules>
